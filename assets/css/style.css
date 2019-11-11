@@ -1,1 +1,217 @@
 @charset "utf-8";
+
+.body {
+  background-color: #f2f6f7;
+  padding: 30px 0;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.is-caption-color {
+  color: #949697;
+  font-size: 12px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.requirements {
+  color: #dd4b39;
+  padding: 3px;
+}
+
+.label {
+  display: block;
+  color: #545658;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.input-area {
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  color: #545658;
+  font-size: 13px;
+  height: 36px;
+  padding: 5px;
+  line-height: 2;
+  width: 100%;
+}
+
+.main-box {
+  background: #fff;
+  border-radius: 4px;
+  padding: 48px 64px;
+  margin-bottom: 32px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.page-title {
+  color: #545658;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.sns-login {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.sns-button {
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 13px;
+  text-align: center;
+}
+
+.facebook {
+  background-color: #3b5999;
+  border-color: #3b5999;
+  margin-right: 8px;
+}
+
+.facebook-login {
+  color: #fff;
+}
+
+.google-login {
+  background-color: #fff;
+  color: #dd4b39;
+}
+
+.sns-login-caution {
+  text-align: center;
+}
+
+.account-info {
+  position: relative;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.account-info::before {
+  background-color: #ececec;
+  content: '';
+  position: absolute;
+  /*transform: translateY(-50%);*/
+  left: 0;
+  top: 50%;
+  height: 1px;
+  width: 100%;
+}
+
+.account-info-title {
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  padding: 0 10px;
+}
+
+/* 名前 */
+
+.name-box {
+  display: flex;
+}
+
+.given-name {
+  margin-left: 16px;
+}
+
+/* 性別 */
+
+.gender-content {
+  color: #545658;
+  font-size: 16px;
+}
+
+.specific-gender {
+  padding: 3px 3px 3px 20px;
+}
+
+.gender-options{
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.gender-options:first-child {
+  margin-left: 0;
+}
+
+/* コース選択 */
+
+.course-options {
+  color: #545658;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* 備考 */
+
+.note-box .input-area {
+  height: 100px;
+}
+
+/* 送信ボタン */
+
+.button {
+  border-radius: 3px;
+  display: inline-box;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: #01bfbd;
+  padding: 13px;
+}
+
+/* 利用規約 */
+
+.agreement {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 20px;
+}
+
+.terms-of-use {
+  color: #01a6a4;
+}
+
+/* ヘルプ */
+
+.help {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.exsiting-users {
+  margin-bottom: 8px;
+}
+
+.sign-in {
+  color: #01a6a4;
+}
+
+.get-mail {
+  color: #01a6a4;
+}

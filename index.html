@@ -10,6 +10,110 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-
+    <div class="body">
+      <div class="inner">
+        <div class="main-box">
+          <h1 class="page-title">アカウント作成</h1>
+          <div class="sns-login">
+            <div class="sns-button facebook half-width">
+              <a class="facebook-login" href="#">Facebookでスタート</a>
+            </div>
+            <div class="sns-button half-width">
+              <a class="google-login" href="#">Googleでスタート</a>
+            </div>
+          </div>
+          <p class="sns-login-caution is-caption-color">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
+          <div class="account-info">
+            <p class="account-info-title is-caption-color">アカウント情報</p>
+          </div>
+          <form class="form" method="post">
+            <div class="row name-box">
+              <div class="last-name half-width">
+                <p class="label">名字<span class="requirements">※</span></p>
+                <input type="text" class="input-area">
+              </div>
+              <div class="given-name half-width">
+                <p class="label">名前<span class="requirements">※</span></p>
+                <input type="text" class="input-area">
+              </div>
+            </div>
+            <div class="row gender">
+              <p class="label">性別</p>
+              <div class="gender-content">
+                <label class="gender-options">
+                  <input type="radio" value="male"><span class="specific-gernder">男性</span>
+                </label>
+                <label class="gender-options">
+                  <input type="radio" value="female"><span class="specific-gernder">女性</span>
+                </label>
+                <label class="gender-options">
+                  <input type="radio" value="other-sex"><span class="specific-gernder">その他</span>
+                </label>
+              </div>
+            </div>
+            <div class="row birth-place-box">
+              <p class="label">出身</p>
+              <select name="birth-place input-area">
+                <option value="tokyo">東京</option>
+                <option value="chiba">千葉</option>
+                <option value="saitama">埼玉</option>
+                <option value="kanagawa">神奈川</option>
+              </select>
+            </div>
+            <div class="row e-mail">
+              <p class="label">Eメール<span class="requirements">※</span></p>
+              <input type="text" class="input-area full-width" placeholder="ex)hoge@example.com">
+            </div>
+            <div class="row phone-number">
+              <p class="label">電話番号</label></p>
+              <input type="text" class="input-area full-width" placeholder="09012345678">
+            </div>
+            <div class="row password">
+              <p class="label">パスワード<span class="requirements">※</span></p>
+              <input type="password" class="input-area full-width">
+            </div>
+            <div class="row password-confirm">
+              <p class="label">パスワード(確認用)<span class="requirements">※</span></p>
+              <input type="password"class="input-area full-width">
+            </div>
+            <div class="row course">
+              <p class="label">希望コース</label></p>
+              <div class="course-options">
+                <input type="checkbox" value="frontend">
+                <label for="frontend">フロントエンド</label>
+              </div>
+              <div class="course-options">
+                <input type="checkbox" value="backend">
+                <label for="backend">バックエンド</label>
+              </div>
+              <div class="course-options">
+                <input type="checkbox" value="app">
+                <label for="app">アプリ</label>
+              </div>
+            </div>
+            <div class="row note-box">
+              <p class="label">備考</p>
+              <textarea class="input-area" placeholder="何かあればご記入ください"></textarea>
+            </div>
+            <div class="row submit-button">
+              <input type="submit" value="アカウント作成" class="button submit-btn full-width">
+              <p class="agreement">アカウントを作成することにより、
+                <a class="terms-of-use" href="#">利用規約</a>
+              と
+                <a class="terms-of-use" href="#">プライバシーポリシー</a>
+              に同意するものとします。</p>
+            </div>
+          </form>
+        </div>
+        <div class="help">
+          <div class="exsiting-users">
+            <p>すでにアカウントをお持ちですか？<a class="sign-in" href="#">ログイン</a></p>
+          </div>
+          <div class="authentication-mail">
+            <a class="get-mail">認証メールが届きませんか？</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
