@@ -53,6 +53,7 @@
   border-radius: 4px;
   padding: 48px 64px;
   margin-bottom: 32px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .18);
 }
 
 .row {
@@ -141,10 +142,6 @@
   font-size: 16px;
 }
 
-.specific-gender {
-  padding: 3px 3px 3px 20px;
-}
-
 .gender-options{
   margin-left: 15px;
   cursor: pointer;
@@ -154,12 +151,84 @@
   margin-left: 0;
 }
 
+.gender-input {
+  display: none;
+}
+
+.gender-content span {
+  position: relative;
+  display: inline-block;
+  padding: 3px;
+}
+
+.gender-content span::before {
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  content'';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 14px;
+  width: 14px;
+  transform: translateY(-50%);
+}
+
+.gender-input:checked + span::after {
+  border-radius: 50%;
+  background-color: #01bfbd;
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  height: 8px;
+  width: 8px;
+  transform: translateY(-50%);
+}
+
+/* 出身 */
+
+.birth-place {
+  width: 50%;
+}
+
 /* コース選択 */
 
 .course-options {
   color: #545658;
   font-size: 16px;
   margin-bottom: 10px;
+}
+
+.course-checkbox {
+  display: none;
+}
+
+.course-label {
+  position: relative;
+  padding-left: 25px;
+}
+
+.course-label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 15px;
+  width: 15px;
+  margin-top: -8px;
+  border: 1px solid #d9d9d9;
+}
+
+.course-options input:checked + .course-options::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+  height: 16px;
+  width: 8px;
+  border-right: 3px solid #01bfbd;
+  border-bottom: 3px solid #01bfbd;
 }
 
 /* 備考 */

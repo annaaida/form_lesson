@@ -41,19 +41,19 @@
               <p class="label">性別</p>
               <div class="gender-content">
                 <label class="gender-options">
-                  <input type="radio" value="male"><span class="specific-gernder">男性</span>
+                  <input type="radio" value="male" class="gender-input"><span>男性</span>
                 </label>
                 <label class="gender-options">
-                  <input type="radio" value="female"><span class="specific-gernder">女性</span>
+                  <input type="radio" value="female" class="gender-input"><span>女性</span>
                 </label>
                 <label class="gender-options">
-                  <input type="radio" value="other-sex"><span class="specific-gernder">その他</span>
+                  <input type="radio" value="other-sex" class="gender-input"><span>その他</span>
                 </label>
               </div>
             </div>
             <div class="row birth-place-box">
               <p class="label">出身</p>
-              <select name="birth-place input-area">
+              <select class="birth-place input-area">
                 <option value="tokyo">東京</option>
                 <option value="chiba">千葉</option>
                 <option value="saitama">埼玉</option>
@@ -62,11 +62,11 @@
             </div>
             <div class="row e-mail">
               <p class="label">Eメール<span class="requirements">※</span></p>
-              <input type="text" class="input-area full-width" placeholder="ex)hoge@example.com">
+              <input type="text" class="input-area full-width" placeholder="ex) hoge@example.com">
             </div>
             <div class="row phone-number">
               <p class="label">電話番号</label></p>
-              <input type="text" class="input-area full-width" placeholder="09012345678">
+              <input type="text" class="input-area full-width" placeholder="ex) 09012345678">
             </div>
             <div class="row password">
               <p class="label">パスワード<span class="requirements">※</span></p>
@@ -79,16 +79,16 @@
             <div class="row course">
               <p class="label">希望コース</label></p>
               <div class="course-options">
-                <input type="checkbox" value="frontend">
-                <label for="frontend">フロントエンド</label>
+                <input type="checkbox" value="frontend" class="course-checkbox">
+                <label for="frontend" class="course-label">フロントエンド</label>
               </div>
               <div class="course-options">
-                <input type="checkbox" value="backend">
-                <label for="backend">バックエンド</label>
+                <input type="checkbox" value="backend" class="course-checkbox">
+                <label for="backend" class="course-label">バックエンド</label>
               </div>
               <div class="course-options">
-                <input type="checkbox" value="app">
-                <label for="app">アプリ</label>
+                <input type="checkbox" value="app" class="course-checkbox">
+                <label for="app" class="course-label">アプリ</label>
               </div>
             </div>
             <div class="row note-box">
