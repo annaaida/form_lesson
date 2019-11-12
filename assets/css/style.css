@@ -308,6 +308,7 @@ input, textarea, select {
 
 .submit-btn:hover {
   background-color: #01a6a4;
+  cursor: pointer;
 }
 
 .submit-btn:active {
@@ -328,6 +329,10 @@ input, textarea, select {
   color: #01a6a4;
 }
 
+.terms-of-use:hover {
+  color: #01bfbd;
+}
+
 /* ヘルプ */
 
 .help {
@@ -346,4 +351,10 @@ input, textarea, select {
 
 .get-mail {
   color: #01a6a4;
+}
+
+.sign-in:hover, .get-mail:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
 }
