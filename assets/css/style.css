@@ -205,33 +205,33 @@ input, textarea {
 
 /* コース選択 */
 
-.course-options {
+.course-option {
   color: #545658;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-.course-checkbox {
+.course-option input{
   display: none;
 }
 
-.course-label {
+.course-option-text {
   position: relative;
   padding-left: 25px;
 }
 
-.course-label::before {
+.course-option-text::before {
   content: '';
   position: absolute;
   left: 0;
   top: 50%;
   height: 15px;
   width: 15px;
-  margin-top: -12px;
+  margin-top: -8px;
   border: 1px solid #d9d9d9;
 }
 
-.course-options input:checked + .course-label::after {
+.course-option input:checked + .course-option-text::after {
   content: '';
   position: absolute;
   left: 6px;
